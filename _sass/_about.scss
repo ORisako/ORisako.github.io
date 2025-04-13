@@ -1,0 +1,21 @@
+.skill__list {
+    font-size: 16px;
+    color: #707070;
+    line-height: 1.5;
+
+    &-item {
+        display: flex;
+        align-items: center;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #b1b1b1;
+
+        &__left {
+            min-width: 9em;
+
+            @media (max-width: 1370px) {
+                min-width: 7em;
+            }
+        }
+    }
+}
