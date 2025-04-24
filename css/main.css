@@ -121,8 +121,10 @@ a:hover {
 
 .ttl__style01 {
   margin-bottom: 30px;
+  padding-left: 10px;
+  border-left: 5px solid #B791CB;
   font-size: 28px;
-  color: #B791CB;
+  color: #707070;
 }
 
 .g-nav {
