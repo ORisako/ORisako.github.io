@@ -3,10 +3,10 @@
       {
         "format": "expanded",
         "extensionName": ".css",
-        "savePath": "/css"
+        "savePath": "/kotonoha/css"
       }
     ],
     "liveSassCompile.settings.includeItems": [
-      "**/main.scss"
+      "**/kotonoha/css/kotonoha.scss"
     ]
   }
