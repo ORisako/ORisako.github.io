@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="286.384" height="332.875" viewBox="0 0 286.384 332.875">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_43" data-name="長方形 43" width="209.517" height="281.929" fill="none" stroke="#fff" stroke-width="10"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_50" data-name="グループ 50" transform="translate(0 64.744) rotate(-18)">
+    <line id="線_26" data-name="線 26" x2="85.424" transform="translate(78.559 133.456)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    <line id="線_27" data-name="線 27" x2="51.607" transform="translate(80.548 195.926)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    <line id="線_28" data-name="線 28" x2="81.445" transform="translate(80.548 228.524)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    <line id="線_29" data-name="線 29" x2="25.462" transform="translate(80.548 163.328)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    <line id="線_30" data-name="線 30" x2="25.462" transform="translate(136.533 163.328)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    <g id="グループ_49" data-name="グループ 49" transform="translate(0 0)">
+      <g id="グループ_48" data-name="グループ 48" clip-path="url(#clip-path)">
+        <rect id="長方形_40" data-name="長方形 40" width="162.455" height="267.888" transform="translate(40.042 7.021)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <rect id="長方形_41" data-name="長方形 41" width="33.021" height="267.888" transform="translate(7.021 7.021)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <line id="線_31" data-name="線 31" x2="33.021" transform="translate(7.021 64.536)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <line id="線_32" data-name="線 32" x2="33.021" transform="translate(7.021 110.755)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <rect id="長方形_42" data-name="長方形 42" width="96.46" height="50.376" rx="2.142" transform="translate(73.041 53.208)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+      </g>
+    </g>
+  </g>
+</svg>

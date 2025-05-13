@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="372.418" height="347.903" viewBox="0 0 372.418 347.903">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_38" data-name="長方形 38" width="304.916" height="266.734" fill="none" stroke="#fff" stroke-width="10"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_47" data-name="グループ 47" transform="translate(82.425) rotate(18)">
+    <g id="グループ_44" data-name="グループ 44">
+      <g id="グループ_43" data-name="グループ 43" clip-path="url(#clip-path)">
+        <path id="パス_7" data-name="パス 7" d="M144.011,248.34H1.5L72.753,124.92,144.011,1.5,215.27,124.92l71.252,123.42Z" transform="translate(8.449 8.447)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+      </g>
+    </g>
+    <path id="パス_8" data-name="パス 8" d="M63.26,98.651H15.84L39.547,57.584,63.26,16.517,86.973,57.584,110.68,98.651Z" transform="translate(89.2 93.011)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+    <g id="グループ_46" data-name="グループ 46">
+      <g id="グループ_45" data-name="グループ 45" clip-path="url(#clip-path)">
+        <line id="線_18" data-name="線 18" y2="18.236" transform="translate(61.731 238.632)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <line id="線_19" data-name="線 19" y2="18.236" transform="translate(87.704 238.632)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <line id="線_20" data-name="線 20" y2="28.183" transform="translate(113.676 228.686)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <line id="線_21" data-name="線 21" y2="18.236" transform="translate(138.543 238.632)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <line id="線_22" data-name="線 22" y2="18.236" transform="translate(164.515 238.632)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <line id="線_23" data-name="線 23" y2="18.236" transform="translate(218.413 238.632)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <line id="線_24" data-name="線 24" y2="18.236" transform="translate(244.386 238.632)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <line id="線_25" data-name="線 25" y2="28.183" transform="translate(190.487 228.686)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+      </g>
+    </g>
+  </g>
+</svg>
