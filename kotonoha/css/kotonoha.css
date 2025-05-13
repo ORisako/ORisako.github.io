@@ -55,6 +55,18 @@ img {
   }
 }
 
+.pblock {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 768px) {
+  .pblock {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
 .ttl__style01 {
   position: relative;
   z-index: 2;
@@ -77,6 +89,15 @@ img {
 .ttl__style01 span::after {
   content: "-";
   margin-left: 10px;
+}
+@media (max-width: 768px) {
+  .ttl__style01 {
+    font-size: 25px;
+  }
+  .ttl__style01 span {
+    margin-top: 10px;
+    font-size: 16px;
+  }
 }
 
 .contents {
@@ -421,4 +442,127 @@ img {
     bottom: 10px;
     width: 100px;
   }
+}
+
+.classroom {
+  padding: 120px 20px 200px 20px;
+  background-color: #fff;
+}
+@media (max-width: 768px) {
+  .classroom {
+    padding: 60px 0 60px 0;
+  }
+}
+.classroom__box01 {
+  width: 512px;
+  transform: rotate(4deg);
+}
+@media (max-width: 768px) {
+  .classroom__box01 {
+    width: 55%;
+  }
+}
+.classroom__box01-tape {
+  width: 50%;
+  height: 50px;
+  margin: -25px auto -20px;
+  background: #989898;
+  transform: rotate(-3deg);
+  opacity: 0.3;
+}
+.classroom__box01-img {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.classroom__box02 {
+  width: 567px;
+  margin-left: auto;
+  margin-top: -120px;
+  transform: rotate(-4deg);
+}
+@media (max-width: 768px) {
+  .classroom__box02 {
+    width: 60%;
+    margin-top: -60px;
+  }
+}
+.classroom__box02-tape {
+  width: 50%;
+  height: 50px;
+  margin: -25px auto -20px;
+  background: #989898;
+  transform: rotate(3deg);
+  opacity: 0.3;
+}
+.classroom__box02-img {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.classroom__box03 {
+  width: 512px;
+  margin-top: -120px;
+  transform: rotate(-5deg);
+}
+@media (max-width: 768px) {
+  .classroom__box03 {
+    width: 55%;
+    margin-top: -60px;
+  }
+}
+.classroom__box03-tape {
+  width: 50%;
+  height: 50px;
+  margin: -25px auto -20px;
+  background: #989898;
+  transform: rotate(5deg);
+  opacity: 0.3;
+}
+.classroom__box03-img {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.classroom__txt {
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  font-size: 30px;
+  z-index: 2;
+}
+.classroom__txt::after {
+  content: "";
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  background-color: #EBF3DB;
+  border-radius: 50%;
+  z-index: -1;
+  right: -90px;
+  bottom: -60px;
+}
+@media (max-width: 768px) {
+  .classroom__txt::after {
+    width: 80px;
+    height: 80px;
+    right: -40px;
+    bottom: -30px;
+  }
+}
+@media (max-width: 768px) {
+  .classroom__txt {
+    font-size: 16px;
+  }
+}
+.classroom__txt__wrapper {
+  max-width: 400px;
+  margin-left: auto;
+  margin-top: -160px;
+}
+@media (max-width: 768px) {
+  .classroom__txt__wrapper {
+    max-width: 200px;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+}
+
+.teacher {
+  padding: 120px 0;
+  background: repeating-linear-gradient(-45deg, #FFFBC3, #FFFBC3 8px, #fff 8px, #fff 16px);
 }/*# sourceMappingURL=kotonoha.css.map */
