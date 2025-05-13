@@ -19,6 +19,14 @@ img {
   max-height: 100%;
 }
 
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-60 {
+  margin-top: 60px !important;
+}
+
 @media (max-width: 768px) {
   .d-none {
     display: none;
@@ -74,6 +82,11 @@ img {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+  .ttl__style01 {
+    margin-bottom: 30px;
+  }
 }
 .ttl__style01 span {
   display: block;
@@ -470,6 +483,11 @@ img {
   transform: rotate(-3deg);
   opacity: 0.3;
 }
+@media (max-width: 768px) {
+  .classroom__box01-tape {
+    height: 30px;
+  }
+}
 .classroom__box01-img {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
@@ -493,6 +511,11 @@ img {
   transform: rotate(3deg);
   opacity: 0.3;
 }
+@media (max-width: 768px) {
+  .classroom__box02-tape {
+    height: 30px;
+  }
+}
 .classroom__box02-img {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
 }
@@ -514,6 +537,11 @@ img {
   background: #989898;
   transform: rotate(5deg);
   opacity: 0.3;
+}
+@media (max-width: 768px) {
+  .classroom__box03-tape {
+    height: 30px;
+  }
 }
 .classroom__box03-img {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
@@ -565,4 +593,89 @@ img {
 .teacher {
   padding: 120px 0;
   background: repeating-linear-gradient(-45deg, #FFFBC3, #FFFBC3 8px, #fff 8px, #fff 16px);
+}
+.teacher__box01 {
+  display: flex;
+  align-items: end;
+}
+@media (max-width: 768px) {
+  .teacher__box01 {
+    margin-top: 30px;
+  }
+}
+.teacher__box01-img {
+  max-width: 470px;
+  border-radius: 100%;
+}
+@media (max-width: 768px) {
+  .teacher__box01-img {
+    width: 50%;
+  }
+}
+.teacher__box01__txt {
+  margin-left: -80px;
+  z-index: 2;
+}
+@media (max-width: 768px) {
+  .teacher__box01__txt {
+    margin-left: -40px;
+  }
+}
+.teacher__box01__txt-name {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .teacher__box01__txt-name {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .teacher__box01__txt-comment {
+    font-size: 12px;
+  }
+}
+.teacher__box02 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+@media (max-width: 768px) {
+  .teacher__box02 {
+    margin-top: 30px;
+  }
+}
+.teacher__box02-img {
+  max-width: 470px;
+  border-radius: 100%;
+}
+@media (max-width: 768px) {
+  .teacher__box02-img {
+    width: 50%;
+  }
+}
+.teacher__box02__txt {
+  margin-right: -150px;
+  z-index: 2;
+}
+@media (max-width: 768px) {
+  .teacher__box02__txt {
+    margin-right: -70px;
+  }
+}
+.teacher__box02__txt-name {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+@media (max-width: 768px) {
+  .teacher__box02__txt-name {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .teacher__box02__txt-comment {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=kotonoha.css.map */

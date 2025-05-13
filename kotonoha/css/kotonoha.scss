@@ -35,6 +35,14 @@ img {
     max-height: 100%;
 }
 
+.mt-0 {
+  margin-top: 0 !important;
+}
+
+.mt-60 {
+  margin-top: 60px !important;
+}
+
 .d-none {
   @include media-breakpoint-down(md) {
     display: none;
@@ -89,6 +97,10 @@ img {
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+
+    @include media-breakpoint-down(md) {
+      margin-bottom: 30px;
+    }
 
     span {
         display: block;
@@ -495,6 +507,10 @@ img {
         background: #989898;
         transform: rotate(-3deg);
         opacity: 0.3;
+
+        @include media-breakpoint-down(md) {
+          height: 30px;
+        }
       }
 
       &-img {
@@ -520,6 +536,10 @@ img {
         background: #989898;
         transform: rotate(3deg);
         opacity: 0.3;
+
+        @include media-breakpoint-down(md) {
+          height: 30px;
+        }
       }
 
       &-img {
@@ -544,6 +564,10 @@ img {
         background: #989898;
         transform: rotate(5deg);
         opacity: 0.3;
+
+        @include media-breakpoint-down(md) {
+          height: 30px;
+        }
       }
 
       &-img {
@@ -598,4 +622,92 @@ img {
   .teacher {
       padding: 120px 0;
       background: repeating-linear-gradient(-45deg, #FFFBC3, #FFFBC3 8px, #fff 8px, #fff 16px);
+
+      &__box01 {
+        display: flex;
+        align-items: end;
+
+        @include media-breakpoint-down(md) {
+          margin-top: 30px;
+        }
+
+        &-img {
+          max-width: 470px;
+          border-radius: 100%;
+
+          @include media-breakpoint-down(md) {
+            width: 50%;
+          }
+        }
+
+        &__txt {
+          margin-left: -80px;
+          z-index: 2;
+
+          @include media-breakpoint-down(md) {
+            margin-left: -40px;
+          }
+
+          &-name {
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            
+            @include media-breakpoint-down(md) {
+              font-size: 16px;
+            }
+          }
+
+          &-comment {
+            @include media-breakpoint-down(md) {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+
+      &__box02 {
+        display: flex;
+        align-items: end;
+        justify-content: end;
+
+        @include media-breakpoint-down(md) {
+          margin-top: 30px;
+        }
+
+        &-img {
+          max-width: 470px;
+          border-radius: 100%;
+
+          @include media-breakpoint-down(md) {
+            width: 50%;
+          }
+        }
+
+        &__txt {
+          margin-right: -150px;
+          z-index: 2;
+
+          @include media-breakpoint-down(md) {
+            margin-right: -70px;
+          }
+
+          &-name {
+            margin-bottom: 10px;
+            font-size: 20px;
+            font-weight: bold;
+
+            @include media-breakpoint-down(md) {
+              font-size: 16px;
+            }
+          }
+
+          &-comment {
+            @include media-breakpoint-down(md) {
+              font-size: 12px;
+            }
+          }
+        }
+        
+      }
   }
