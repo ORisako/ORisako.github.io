@@ -594,6 +594,11 @@ img {
   padding: 120px 0;
   background: repeating-linear-gradient(-45deg, #FFFBC3, #FFFBC3 8px, #fff 8px, #fff 16px);
 }
+@media (max-width: 768px) {
+  .teacher {
+    padding: 60px 0;
+  }
+}
 .teacher__box01 {
   display: flex;
   align-items: end;
@@ -678,4 +683,109 @@ img {
   .teacher__box02__txt-comment {
     font-size: 12px;
   }
+}
+
+.step {
+  padding: 120px 0;
+  background-color: #fff;
+}
+@media (max-width: 768px) {
+  .step {
+    padding: 60px 0;
+  }
+}
+.step__inner {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .step__inner {
+    flex-wrap: wrap;
+  }
+}
+.step__item {
+  position: relative;
+  width: 22%;
+}
+@media (max-width: 768px) {
+  .step__item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+.step__item__number {
+  font-size: 30px;
+  font-weight: bold;
+}
+.step__item__number_01 {
+  color: #A3D973;
+}
+.step__item__number_02 {
+  color: #8FCC59;
+}
+.step__item__number_03 {
+  color: #76B440;
+}
+.step__item__number_04 {
+  color: #5E9C27;
+}
+.step__item__txt_white {
+  margin-left: -30px;
+  text-align: center;
+  color: #fff;
+}
+.step__item__txt_white__wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 15px;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #A3D973;
+}
+@media (max-width: 768px) {
+  .step__item__txt_white__wrapper {
+    justify-content: center;
+    height: 60px;
+    padding: 0;
+  }
+}
+.step__item__txt_white__wrapper::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  top: -2px;
+  right: 0;
+  border-top: 76px solid #fff;
+  border-left: 30px solid transparent;
+  border-bottom: 76px solid #fff;
+}
+@media (max-width: 768px) {
+  .step__item__txt_white__wrapper::after {
+    top: -2px;
+    right: -1px;
+    border-top: 32px solid #fff;
+    border-left: 16px solid transparent;
+    border-bottom: 32px solid #fff;
+  }
+}
+.step__item__txt_white__wrapper_02 {
+  background-color: #8FCC59;
+}
+.step__item__txt_white__wrapper_03 {
+  background-color: #76B440;
+}
+.step__item__txt_white__wrapper_04 {
+  background-color: #5E9C27;
+}
+.step__img {
+  position: absolute;
+  bottom: -40px;
+  right: -10px;
 }/*# sourceMappingURL=kotonoha.css.map */
