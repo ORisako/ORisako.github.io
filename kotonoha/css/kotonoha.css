@@ -785,6 +785,7 @@ img {
   background-color: #5E9C27;
 }
 .step__img {
+  max-width: 110px;
   position: absolute;
   bottom: -40px;
   right: -10px;
