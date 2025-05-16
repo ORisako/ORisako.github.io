@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_18" data-name="長方形 18" width="74.755" height="84.469" transform="translate(0 0)" fill="#69a625"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_95" data-name="グループ 95" transform="translate(-6768 -8951)">
+    <circle id="楕円形_13" data-name="楕円形 13" cx="50" cy="50" r="50" transform="translate(6768 8951)" fill="#fff"/>
+    <g id="グループ_34" data-name="グループ 34" transform="translate(6780.623 8956)">
+      <g id="グループ_33" data-name="グループ 33">
+        <g id="グループ_32" data-name="グループ 32" clip-path="url(#clip-path)">
+          <text id="P" transform="translate(16.96 15.617) rotate(-28.164)" fill="#69a625" font-size="11.145" font-family="Noto Sans JP"><tspan x="0" y="0">P</tspan></text>
+          <text id="A" transform="translate(22.241 12.709) rotate(-18.163)" fill="#69a625" font-size="11.145" font-family="Noto Sans JP"><tspan x="0" y="0">A</tspan></text>
+          <text id="G" transform="matrix(0.992, -0.125, 0.125, 0.992, 28.831, 10.493)" fill="#69a625" font-size="11.145" font-family="Noto Sans JP"><tspan x="0" y="0">G</tspan></text>
+          <text id="E" transform="translate(36.139 9.623) rotate(2.538)" fill="#69a625" font-size="11.145" font-family="Noto Sans JP"><tspan x="0" y="0">E</tspan></text>
+          <text id="_" data-name=" " transform="translate(41.757 9.946) rotate(8.642)" fill="#69a625" font-size="11.145" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0"> </tspan></text>
+          <text id="T" transform="translate(44.147 10.208) rotate(14.873)" fill="#69a625" font-size="11.145" font-family="Noto Sans JP"><tspan x="0" y="0">T</tspan></text>
+          <text id="O" transform="matrix(0.905, 0.426, -0.426, 0.905, 49.568, 11.51)" fill="#69a625" font-size="11.145" font-family="Noto Sans JP"><tspan x="0" y="0">O</tspan></text>
+        </g>
+      </g>
+      <text id="P-2" data-name="P" transform="matrix(0.811, 0.584, -0.584, 0.811, 56.62, 14.885)" fill="#69a625" font-size="11.145" font-family="Noto Sans JP"><tspan x="0" y="0">P</tspan></text>
+    </g>
+  </g>
+</svg>
