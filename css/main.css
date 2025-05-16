@@ -48,14 +48,14 @@ main {
   margin-bottom: 30px !important;
 }
 
+.mb-90 {
+  margin-bottom: 90px !important;
+}
+
 @media (max-width: 1370px) {
   .mb-md-30 {
     margin-bottom: 30px !important;
   }
-}
-
-.mb-90 {
-  margin-bottom: 90px !important;
 }
 
 .d-block {
@@ -129,6 +129,58 @@ a:hover {
   border-left: 5px solid #B791CB;
   font-size: 28px;
   color: #707070;
+}
+@media (max-width: 768px) {
+  .ttl__style01 {
+    font-size: 24px;
+  }
+}
+
+.ttl__style02 {
+  display: inline-block;
+  margin-bottom: 30px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  color: #707070;
+  font-weight: bold;
+  border-bottom: 2px solid #B791CB;
+}
+
+.btn__style01 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 100vh;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #B791CB;
+  color: #fff;
+  transition: 0.2s;
+}
+@media (max-width: 768px) {
+  .btn__style01 {
+    width: 100%;
+  }
+}
+.btn__style01::before {
+  position: absolute;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1;
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 20px;
+  margin: 0;
+  padding: 0;
+  content: "\f105";
+  transition: transform 0.3s ease;
+}
+.btn__style01:hover::before {
+  transform: translateX(5px);
 }
 
 .g-nav {
@@ -341,6 +393,23 @@ a:hover {
 @media (max-width: 1370px) {
   .skill__list-item__left {
     min-width: 7em;
+  }
+}
+
+.kotonoha__img01 {
+  max-width: 20%;
+}
+@media (max-width: 768px) {
+  .kotonoha__img01 {
+    max-width: 23%;
+  }
+}
+.kotonoha__img02 {
+  max-width: 20%;
+}
+@media (max-width: 768px) {
+  .kotonoha__img02 {
+    max-width: 25%;
   }
 }
 

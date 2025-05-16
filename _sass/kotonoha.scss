@@ -1,29 +1,8 @@
+@use 'mixins' as *;
+
 // @include media-breakpoint-down(sm) {}
 // @include media-breakpoint-up(md) {}
 // @include media-breakpoint-down(md) {}
-
-// Breakpoints
-$grid-breakpoints: (
-  sm: 576px,
-  md: 769px,
-);
-
-// Media Query Mixins
-@mixin media-breakpoint-up($breakpoint) {
-  @if map-has-key($grid-breakpoints, $breakpoint) {
-    @media (min-width: map-get($grid-breakpoints, $breakpoint)) {
-      @content;
-    }
-  }
-}
-
-@mixin media-breakpoint-down($breakpoint) {
-  @if map-has-key($grid-breakpoints, $breakpoint) {
-    @media (max-width: map-get($grid-breakpoints, $breakpoint) - 1) {
-      @content;
-    }
-  }
-}
 
 * {box-sizing: border-box;}
 * {font-family: "Noto Sans JP", sans-serif;}
