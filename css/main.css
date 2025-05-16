@@ -145,6 +145,11 @@ a:hover {
   font-weight: bold;
   border-bottom: 2px solid #B791CB;
 }
+@media (max-width: 768px) {
+  .ttl__style02 {
+    font-size: 18px;
+  }
+}
 
 .btn__style01 {
   position: relative;
