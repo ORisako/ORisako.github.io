@@ -1,3 +1,10 @@
+@use 'mixins' as *;
+
+// @include media-breakpoint-down(sm) {}
+// @include media-breakpoint-up(md) {}
+// @include media-breakpoint-down(md) {}
+// @include media-breakpoint-down(lg) {}
+
 .g-nav {
 
     position: fixed;
@@ -116,7 +123,7 @@
       color: #FFF;
     }
 
-    @media (max-width: 1370px) {
+    @include media-breakpoint-down(lg) {
       overflow: hidden;
     }
   }
@@ -128,8 +135,8 @@
   }
 }
 
-@media (max-width: 1370px) {
-  .g-nav {
+@include media-breakpoint-down(lg) {
+    .g-nav {
       position: static;
 
       &__gheader {

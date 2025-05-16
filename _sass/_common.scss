@@ -3,6 +3,7 @@
 // @include media-breakpoint-down(sm) {}
 // @include media-breakpoint-up(md) {}
 // @include media-breakpoint-down(md) {}
+// @include media-breakpoint-down(lg) {}
 
 * {box-sizing: border-box;}
 * {font-family: "Noto Sans JP", sans-serif;}
@@ -13,7 +14,8 @@ img {
 main {
     margin-right: 200px;
 }
-@media (max-width: 1370px) {
+
+@include media-breakpoint-down(lg) {
     main {
         margin-right: 0;
         margin-top: 90px;
@@ -29,7 +31,7 @@ main {
         margin-bottom: 120px;
     }
 
-    @media (max-width: 1370px) {
+    @include media-breakpoint-down(lg) {
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -52,7 +54,7 @@ main {
 }
 
 .mb-md-30 {
-    @media (max-width: 1370px) {
+    @include media-breakpoint-down(lg) {
         margin-bottom: 30px !important;
     }
 }
@@ -83,7 +85,7 @@ main {
         transform: translate(-50%, -50%);
     }
 
-    @media (max-width: 1370px) {
+    @include media-breakpoint-down(lg) {
         min-height: 50vh;
     }
 }
@@ -101,7 +103,7 @@ main {
     color: #B791CB;
 }
 
-@media (max-width: 1370px) {
+@include media-breakpoint-down(lg) {
     .main-txt {
         font-size: 40px;
     }

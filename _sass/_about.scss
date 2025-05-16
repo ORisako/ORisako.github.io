@@ -1,3 +1,10 @@
+@use 'mixins' as *;
+
+// @include media-breakpoint-down(sm) {}
+// @include media-breakpoint-up(md) {}
+// @include media-breakpoint-down(md) {}
+// @include media-breakpoint-down(lg) {}
+
 .skill__list {
     font-size: 16px;
     color: #707070;
@@ -13,7 +20,7 @@
         &__left {
             min-width: 9em;
 
-            @media (max-width: 1370px) {
+            @include media-breakpoint-down(lg) {
                 min-width: 7em;
             }
         }

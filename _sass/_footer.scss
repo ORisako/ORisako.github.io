@@ -1,3 +1,10 @@
+@use 'mixins' as *;
+
+// @include media-breakpoint-down(sm) {}
+// @include media-breakpoint-up(md) {}
+// @include media-breakpoint-down(md) {}
+// @include media-breakpoint-down(lg) {}
+
 .footer {
     position: relative;
     background-color: #F2F2F2;
@@ -11,7 +18,7 @@
         padding-top: 60px;
         padding-bottom: 60px;
 
-        @media (max-width: 1370px) {
+        @include media-breakpoint-down(lg) {
             display: block;
             padding-left: 20px;
             padding-right: 20px;
@@ -22,7 +29,7 @@
     &__icon {
         margin-right: 30px;
 
-        @media (max-width: 1370px) {
+        @include media-breakpoint-down(lg) {
             display: block;
             max-width: 150px;
             margin: 0 auto 20px auto;
@@ -43,11 +50,11 @@
     justify-content: center;
     align-items: center;
 
-    @media (max-width: 1370px) {
+    @include media-breakpoint-down(lg) {
         right: 20px;
         bottom: 20px;
         width: 40px;
         height: 40px;
-        font-size: 30px;
+        font-size: 30px;  
     }
 }
