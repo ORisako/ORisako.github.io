@@ -39,6 +39,10 @@ img {
   margin-top: 0 !important;
 }
 
+.mt-10 {
+  margin-top: 10px !important;
+}
+
 .mt-20 {
   margin-top: 20px !important;
 }
@@ -855,7 +859,7 @@ img {
       right: 20px;
       width: 300px;
       height: 300px;
-      background-image: url(../img/voice_bk.svg);
+      background-image: url(/kotonoha/img/voice_bk.svg);
       background-repeat: no-repeat;
       background-position: right bottom;
       background-size: contain;
@@ -1014,7 +1018,7 @@ img {
         line-height: 62px;
         text-align: center;
         font-weight: bold;
-        background-image: url(../img/question.svg);
+        background-image: url(/kotonoha/img/question.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
@@ -1034,7 +1038,7 @@ img {
         line-height: 62px;
         text-align: center;
         font-weight: bold;
-        background-image: url(../img/answer.svg);
+        background-image: url(/kotonoha/img/answer.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: contain;
