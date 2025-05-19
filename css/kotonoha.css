@@ -913,6 +913,7 @@ img {
   position: relative;
   padding: 20px;
   background-color: transparent;
+  border-radius: 0 !important;
 }
 @media (max-width: 768px) {
   .faq .accordion-button {
@@ -959,6 +960,7 @@ img {
   border: none;
   border-bottom: 1px solid #7F7F7F;
   background-color: transparent;
+  border-radius: 0 !important;
 }
 .faq .accordion .faq-q {
   display: inline-block;
